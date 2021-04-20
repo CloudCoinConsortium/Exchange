@@ -19,12 +19,17 @@ sell.html | Helps people sell CC | This page has a video that shows how to use t
 about.html | Tells user about the site | Video explaination and some text explanation
 privacy.html | Privacy Policy |Tells the user that no cookies are collected
 
+### Index Mockup
+![Index](index.png)
+
+## Services
 ### Report Sales
 The Marketing Page has one service called "Report Sales". Approved exchanges can use this service. 
-
+```
+https://Theexchange.com/service/report.php?price=88&volumn=88&seller_sn=9934343&seller_address=bill.skywallet.cc&buyer_sn=888763&buyer_address=sean.cloudcoin.global&exchange=main&payment=paypal
+```
 ### View Sales
 This allows other web pages to subscript to the sales feed. 
-
 SAMPLE REQUEST:
 ```url
 https://something.com/serv/view_sales.php?limit=100&start_date=4.20.21
