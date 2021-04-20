@@ -89,11 +89,55 @@ Provides For Sale Report | Allows buyers to see top sales accounts.
 
 
 ### Create Sale Order (also used to change)
+SAMPLE GRPC REQUEST:
+```GPRC
+message sale_order {
+  required int32 price = 1;
+  required int32 sn  = 2;
+  required string name = 3;
+  required string password = 4;
+  optional string paypal_key = 5;
+  optional string stripe_key = 6;
+}
+```
+SAMPLE GRPC RESPONSE:
+```
+success
+```
 
 ### Delete Sale Order
+SAMPLE GRPC REQUEST:
+```GPRC
+message delete {
+  required int32 sn = 1;
+}
+```
+SAMPLE GRPC RESPONSE:
+```
+success
+```
 
 ### Seller Report
-
+SAMPLE GRPC REQUEST:
+```GPRC
+  message sales_report {
+  required int32 limit = 1;
+  optional string order_by = 2;
+}
+```
+SAMPLE GRPC RESPONSE:
+```
+{
+  "price":.015,
+  "sn":85554,
+  "skywallet":"jerry.skywallet.cc
+},
+{
+  "price":.01,
+  "sn":5545589,
+  "skywallet":"bill.skywallet.cc
+}
+```
 
 
 
