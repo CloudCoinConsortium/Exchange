@@ -70,7 +70,7 @@ Sell | Sell CC | Allows user to enter their sales information
 ![Buy Screen](buy.png)
 
 ### Mockup of Sell Screen
-
+![Sell Screen](sell.png)
 
 
 # Exchange_Manager
