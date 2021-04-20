@@ -10,7 +10,7 @@ The Exchanges is composed of Three Parts:
 
 [CloudCoin](README.md#marketing-page)
 
-## Marketing Page
+# Marketing Page
 Page | Purpose | Description
 -----|----|-------
 index.html | Shows Sales Chart | This page has the Nav Bar, Bottom Contact Page, Title and Sales Activity Chart
@@ -60,7 +60,7 @@ SAMPLE RESPONSE:
 ```
 
 
-## Skywallet Additions
+# Skywallet Additions
 Menu Item | Purpose | Explanation
 ----|-----|--------
 Buy | Buy CC | Shows list of sellers that the buyer can click on 
@@ -73,7 +73,7 @@ Sell | Sell CC | Allows user to enter their sales information
 
 
 
-## Exchange_Manager
+# Exchange_Manager
 The Exchange Manager is a program that runs on a server and veryifies payments, controls transfers, reports activity and more. 
 Feature | Explanation
 ------ | ----------
