@@ -66,8 +66,8 @@ Menu Item | Purpose | Explanation
 Buy | Buy CC | Shows list of sellers that the buyer can click on 
 Sell | Sell CC | Allows user to enter their sales information
 
-### Mocup of Buy Screen
-
+### Mockup of Buy Screen
+![Buy Screen](buy.png)
 
 ### Mockup of Sell Screen
 
